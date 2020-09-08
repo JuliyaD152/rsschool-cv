@@ -1,4 +1,4 @@
-1. Yuliya Belyavskaya
+1. **Yuliya Belyavskaya**
 
 2. **My contacts**: 
 
@@ -34,10 +34,11 @@ function  slideCreate(n) {
 }
 slideCreate(n);
 ````
-6. **Experience:** 
-	*My first task to create slider*:(https://juliyad152.github.io/Slider-/)
+6. **Experience**:
 
-7.  Education: 
+    *My first task to create slider*:(https://juliyad152.github.io/Slider-/)
+
+7.  **Education:** 
 
     * Belarusian State Technological University(2010-2015):
         >>**Specialization**: *Biotechnology*
