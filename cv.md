@@ -9,6 +9,27 @@
 
 4. Skills: HTML, CSS, JS,  Angular (basic knowledge).
 
+5. Code example: 
+```` javascript
+function  slideCreate(n) {
+	slidesList = document.createElement('ul');
+	slidesList.setAttribute('class', 'slides');
+	divCarousel.append(slidesList);
+	for (let  i = 0; i < n; i++) {
+		let  slidesLi = document.createElement('li');
+		let  aLi = document.createElement('a');
+			if (i === 0) {
+				slidesLi.setAttribute("class", "slides__item active");
+			} else {
+				slidesLi.setAttribute('class', "slides__item") ;
+			}
+		slidesList.append(slidesLi);
+		aLi.setAttribute('href', '#');
+		slidesLi.append(aLi);
+	}
+}
+slideCreate(n);
+````
 6. Experience: 
 	* My first task to create slider:(https://juliyad152.github.io/Slider-/)
 
