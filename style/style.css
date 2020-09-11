@@ -1,0 +1,55 @@
+img{
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+}
+
+li{
+    padding: 5px;
+}
+
+ul{
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+    margin:auto;
+    width: 950px;
+    height: 100%;
+    border: 1.5px solid grey;
+    background-color: blanchedalmond;
+    flex-direction: column;
+}
+
+section{
+    text-align: justify;
+}
+
+p{
+    width: 850px;
+}
+
+#my-code{
+        position: center;
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: white;
+    }
+    
+    p{
+        width: auto;
+    }
+
+    #my-code{
+        display: none;
+}
+    
+
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style/style.css" type="text/css"/>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <img src = "assets/myCV.jpg"  alt = "My photo">
+        </header>
+            <ol>
+                <li><b>Yuliya Belyavskaya</b></li>
+                <li><b>My contacts:</b>
+                    <ul>
+                        <li><i>E-mail</i>: dubroskayajuliya@gmail.com;</li>
+                        <li><i>Mob. phone</i>: +375(29)614-75-22;</li>
+                        <li><i>LinkedIn</i>:<a href = "https://www.linkedin.com/feed/" target="_blank">Юлия Дубровская</a></li>
+                        <li><i>Telegram</i>: + 375(29) 614-75-22</li>
+                    </ul>
+                </li>
+                <li><p>I'm 27 years old and now work in Pharmaceutical Company. 
+                    I'm technologist in producing peels. And now my dream to change my work and 
+                    for this reason  my goal is to achieve success in programming field. I want to 
+                    improve my knowledge in programming and to get some experience because my dream 
+                    to get a job in EPAM systems. My strong sides communicability, ability to learn 
+                    something new in a short period, precision at work. 
+                    To be a good programmer is my main goal and wish.</p></li>
+                <li><b>Skills</b>:
+                    <ul>
+                        <li><i>Programming language</i>: HTML, CSS, JS;</li>
+                        <li><i>Framework</i>:Angular (basic knowledge).</li>
+                    </ul>
+                    </li>
+                <li> <b>Code example:</b>
+                    <code id = "my-code">
+                        <pre>
+                            function  slideCreate(n) {
+                                slidesList = document.createElement('ul');
+                                slidesList.setAttribute('class', 'slides');
+                                divCarousel.append(slidesList);
+                                for (let  i = 0; i < n; i++) {
+                                    let  slidesLi = document.createElement('li');
+                                    let  aLi = document.createElement('a');
+                                        if (i === 0) {
+                                            slidesLi.setAttribute("class", "slides__item active");
+                                        } else {
+                                            slidesLi.setAttribute('class', "slides__item") ;
+                                        }
+                                    slidesList.append(slidesLi);
+                                    aLi.setAttribute('href', '#');
+                                    slidesLi.append(aLi);
+                                }
+                            }
+                            slideCreate(n);
+                        </pre>
+                    </code>
+                    
+                </li>
+                <li><b>Experience:</b>
+                    <ul>
+                        <li>My first task to create slider:
+                            <a href="https://juliyad152.github.io/Slider-/">Slider</a></li>
+                    </ul>
+                </li>
+                <li><b>Education: </b>
+                    <ul>
+                        <li>Belarusian State Technological University(2010-2015):
+                            <ul>
+                                <li>Specialization: Biotechnology
+                                    <ul>
+                                        <li>Profession: Chemist - engineer - technologist</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>SkillUp course (2020):
+                        <ul>
+                            <li>Specialization: Frontend</li>
+                        </ul>
+                        </li>
+                        <li> ITVDN online course(2019):
+                                <ul>
+                                    <li>Specialization: Frontend</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                         <p>My english level B1. I finished intermediate level in International House, then I had lessons with tutor. I've started to learn English from 3 course at University.</p>
+                        </li>
+            </ol>
+        </div>
+</body>
+</html>
